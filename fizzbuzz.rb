@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
- if num % 3 && 5 == 0 
+ if num % 3 && num % 5 == 0 
    return "FizzBuzz"
  else if num % 5 == 0
    return "Buzz"
